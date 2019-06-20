@@ -51,7 +51,7 @@ public class SelectionController implements SelectionControllerInterface {
 
     @Override
     public void setIndexRegion(int index) {
-        model.setIndexRegionSelected(index);
+        model.setIndexRegionSelected(index+1);
     }
 
     @Override
